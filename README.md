@@ -65,7 +65,7 @@ the British mathematician John Horton Conway in 1970.
 
 Visualization of the Game of Life:
 
-![Alt Conway's Game of Life](http://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif)
+![Alt Conway's Game of Life](https://git.generalassemb.ly/storage/user/5688/files/306e495a-418e-11e7-97fc-71b3819e56da)
 
 
 <!--
