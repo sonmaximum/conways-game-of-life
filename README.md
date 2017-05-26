@@ -1,4 +1,4 @@
-![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
+![General Assembly Logo](https://git.generalassemb.ly/storage/user/5688/files/64d23a36-418d-11e7-816a-3b7272a1d32c)
 
 # Ruby Lab Day: Code Retreat
 
