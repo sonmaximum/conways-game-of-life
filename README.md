@@ -1,4 +1,4 @@
-![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
+![General Assembly Logo](https://git.generalassemb.ly/storage/user/5688/files/64d23a36-418d-11e7-816a-3b7272a1d32c)
 
 # Ruby Lab Day: Code Retreat
 
@@ -43,19 +43,6 @@ These times are subject to, and most likely __will__ change.
 1.  Free-for-all (60 minutes)
 1.  Retro of the Day (15 minutes)
 
-<!--
-1.  Caveman Coder: whiteboard only, switch with another team after 30 minutes
-1.  Navigator-Driver: One types, the other dictates; switch every 15 minutes
-1.  Silent Coder: no talking allowed in pair
-1.  Flat Files: no nested conditionals
-1.  Sandi's Rules: https://robots.thoughtbot.com/sandi-metz-rules-for-developers
-1.  Git Happens: randomly during the exercise, lose any uncommitted code (git reset --hard HEAD~1)
-1.  Hot Potato: only one can work at a time, switch 5 minutes, no communication,
-    delete uncommitted code
-1.  Many to one: One brave soul following the groups instructions.
-1.  Free-for-all: no constraints
-
--->
 
 Before we get started, let's review the purpose of a code retreat and understand
 the problem we'll be solving.
@@ -78,7 +65,7 @@ the British mathematician John Horton Conway in 1970.
 
 Visualization of the Game of Life:
 
-![Alt Conway's Game of Life](http://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif)
+![Alt Conway's Game of Life](https://git.generalassemb.ly/storage/user/5688/files/306e495a-418e-11e7-97fc-71b3819e56da)
 
 
 <!--
