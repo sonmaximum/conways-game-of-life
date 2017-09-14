@@ -1,9 +1,8 @@
 # Tasks for ruby-template
+# frozen_string_literal: true
 
-begin
-  require 'rspec/core/rake_task'
-  RSpec::Core::RakeTask.new(:test)
-  # rubocop:disable Lint/HandleExceptions
-rescue LoadError
-  # rubocop:enable Lint/HandleExceptions
+Dir.glob('lib/tasks/*.rake').each do |rake|
+  load rake unless rake.include? 'aliases'
 end
+
+load 'lib/tasks/aliases.rake' if File.exist? 'lib/tasks/aliases.rake'
