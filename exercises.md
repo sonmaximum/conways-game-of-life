@@ -11,6 +11,8 @@
 1.  Sandi's Rules: https://robots.thoughtbot.com/sandi-metz-rules-for-developers
 
 1.  Git Happens: Randomly during the exercise, lose any uncommitted code by running `git reset --hard HEAD~1`.
+  * **Note**: This is not a command you should be using except for this execerise!!!
+
 
 1.  Hot Potato: Only one can work at a time, switch every 5 minutes, no communicating, delete uncommitted code.
 

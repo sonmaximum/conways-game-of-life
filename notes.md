@@ -1,3 +1,7 @@
+## Warning
+
+When it comes to the Git Happens exercise, it should be heavily stressed that developers should not use this `git reset` command after this exercise is over for their own purposes.
+
 ## Some Questions to spark a Discussion
 
 #### These may be asked after an individual exercise or at the end of the day
