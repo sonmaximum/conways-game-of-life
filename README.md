@@ -1,4 +1,4 @@
-![General Assembly Logo](https://git.generalassemb.ly/storage/user/5688/files/64d23a36-418d-11e7-816a-3b7272a1d32c)
+[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
 # Ruby Lab Day: Code Retreat
 
@@ -105,7 +105,6 @@ Here is a visual representation of what is happening:
 
 ![population-dynamics-in-conways-game-of-life-and-its-variants-9-728](https://cloud.githubusercontent.com/assets/10408784/17438008/b3013c1a-5aee-11e6-888c-65946800ebcd.jpg)
 
-![Alt Game of life rules](https://qualityswdev.files.wordpress.com/2011/07/gameofliferules11.jpg)
 ### Tips & Tricks
 
 You are **not** expected to finish the exercise in any particular round.
@@ -151,10 +150,11 @@ of Simple Design](http://xprogramming.com/classics/expemergentdesign/).
 -   [A few git tips you didn't know about](http://mislav.uniqpath.com/2010/07/git-tips/)
 -   [Fork A Repo - User Documentation](https://help.github.com/articles/fork-a-repo/)
 -   [Syncing a fork - User Documentation](https://help.github.com/articles/syncing-a-fork/)
-- [Visual of rules 1](http://abyss.uoregon.edu/~js/images/life_rules.gif)
+- [Visual of Rules: 1](http://abyss.uoregon.edu/~js/images/life_rules.gif)
+- [Visual of Rules: 2](https://qualityswdev.files.wordpress.com/2011/07/gameofliferules11.jpg)
 
 ## [License](LICENSE)
 
 1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or alternative
-licensing, please contact legal@ga.co.
+1.  All software code is licensed under GNU GPLv3. For commercial use or
+    alternative licensing, please contact legal@ga.co.
