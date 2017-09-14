@@ -105,7 +105,6 @@ Here is a visual representation of what is happening:
 
 ![population-dynamics-in-conways-game-of-life-and-its-variants-9-728](https://cloud.githubusercontent.com/assets/10408784/17438008/b3013c1a-5aee-11e6-888c-65946800ebcd.jpg)
 
-![Alt Game of life rules](https://qualityswdev.files.wordpress.com/2011/07/gameofliferules11.jpg)
 ### Tips & Tricks
 
 You are **not** expected to finish the exercise in any particular round.
@@ -151,7 +150,8 @@ of Simple Design](http://xprogramming.com/classics/expemergentdesign/).
 -   [A few git tips you didn't know about](http://mislav.uniqpath.com/2010/07/git-tips/)
 -   [Fork A Repo - User Documentation](https://help.github.com/articles/fork-a-repo/)
 -   [Syncing a fork - User Documentation](https://help.github.com/articles/syncing-a-fork/)
-- [Visual of rules 1](http://abyss.uoregon.edu/~js/images/life_rules.gif)
+- [Visual of Rules: 1](http://abyss.uoregon.edu/~js/images/life_rules.gif)
+- [Visual of Rules: 2](https://qualityswdev.files.wordpress.com/2011/07/gameofliferules11.jpg)
 
 ## [License](LICENSE)
 
