@@ -152,6 +152,7 @@ of Simple Design](https://ronjeffries.com/xprog/classics/expemergentdesign/).
 -   [Syncing a fork - User Documentation](https://help.github.com/articles/syncing-a-fork/)
 - [Visual of Rules: 1](http://abyss.uoregon.edu/~js/images/life_rules.gif)
 - [Visual of Rules: 2](https://qualityswdev.files.wordpress.com/2011/07/gameofliferules11.jpg)
+- [Interactive Version of Game of Life](http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/)
 
 ## [License](LICENSE)
 
