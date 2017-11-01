@@ -142,7 +142,7 @@ If you have a working solution you like, post it to GitHub. It's great for
 employers to see you tackling such a classic problem. Work with a classmate to
 refactor your code using
 [SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) and [The Rules
-of Simple Design](http://xprogramming.com/classics/expemergentdesign/).
+of Simple Design](https://ronjeffries.com/xprog/classics/expemergentdesign/).
 
 ## Additional Resources
 
