@@ -142,7 +142,7 @@ If you have a working solution you like, post it to GitHub. It's great for
 employers to see you tackling such a classic problem. Work with a classmate to
 refactor your code using
 [SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) and [The Rules
-of Simple Design](http://xprogramming.com/classics/expemergentdesign/).
+of Simple Design](https://ronjeffries.com/xprog/classics/expemergentdesign/).
 
 ## Additional Resources
 
@@ -152,6 +152,7 @@ of Simple Design](http://xprogramming.com/classics/expemergentdesign/).
 -   [Syncing a fork - User Documentation](https://help.github.com/articles/syncing-a-fork/)
 - [Visual of Rules: 1](http://abyss.uoregon.edu/~js/images/life_rules.gif)
 - [Visual of Rules: 2](https://qualityswdev.files.wordpress.com/2011/07/gameofliferules11.jpg)
+- [Interactive Version of Game of Life](http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/)
 
 ## [License](LICENSE)
 

@@ -2,6 +2,41 @@
 
 When it comes to the Git Happens exercise, it should be heavily stressed that developers should not use this `git reset` command after this exercise is over for their own purposes.
 
+## A Brief Description of Each Exercise
+
+### Suggested Amount of Time Included
+
+1. Introduction (9:40-10)
+
+1.  Caveman Coder (10 - 10:30): Whiteboard only, rotate every 10 minutes.
+
+1.  Navigator-Driver (10:30 - 11): One types the other dictates, rotate every 10 minutes.
+
+1. Break (11 - 11:10)
+
+1.  Silent Coder (11:10 - 12): No talking allowed in pair, rotate every 10 minutes, switch partners halfway.
+
+1. Lunch (12 - 1)
+
+1.  Flat Files (1 - 1:30): No nested conditionals, rotate halfway.
+
+1.  Sandi's Rules (1:30 - 2): Rotate halfway. https://robots.thoughtbot.com/sandi-metz-rules-for-developers
+
+1.  Git Happens (2 - 2:30): Randomly during the exercise, lose any uncommitted code by running `git reset --hard HEAD`. Rotate halfway.
+  * **Note**: This is not a command you should be using except for this execerise!!!
+
+
+1.  Hot Potato (2:30 - 3): Only one can work at a time, switch every 3-8 minutes, no communicating, delete uncommitted code.
+
+1. Break (3 - 3:10)
+
+1.  Many to one (3:10 - 3:40): One brave soul following the groups instructions.
+
+1.  Free-for-all (3:40 - 4:10): No constraints, figure out how to work together!
+
+1. Retro (4:10 - 4:40): What did we learn?
+
+
 ## Some Questions to spark a Discussion
 
 #### These may be asked after an individual exercise or at the end of the day
