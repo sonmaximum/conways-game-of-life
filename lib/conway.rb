@@ -25,11 +25,11 @@ class Gameboard
     born_cells.each { |cell| cell.born }
   end
 
-  def create_living_cell(x, y)
-    cell = cell_arr.find do |cell|
+  def make_alive(x, y)
+    this_cell = cell_arr.find do |cell|
       cell.x == x && cell.y == y
     end
-    cell.live
+    this_cell.live
   end
 
   def start_game
@@ -119,4 +119,5 @@ end
 game = Gameboard.new(5, 5)
 
 new_cell = Cell.new(2, 3, game)
-puts new_cell.to_s
+#puts new_cell.to_s
+puts game.cell_arr
