@@ -108,7 +108,15 @@ class Cell
   def live
     self.alive = true
   end
+
+  def to_s
+    "(#{x}, #{y})"
+  end
+
+  attr_accessor :x, :y
 end
 
 game = Gameboard.new(5, 5)
-puts game.cell_arr
+
+new_cell = Cell.new(2, 3, game)
+puts new_cell.to_s
