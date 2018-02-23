@@ -11,6 +11,8 @@ class Gameboard
         @cell_arr.push(Cell.new(x, y, self))
       end
     end
+    self.show_gameboard
+    self
   end
 
   def check_turn
@@ -33,7 +35,14 @@ class Gameboard
   end
 
   def start_game
-    loop check_turn
+    loop do
+      check_turn
+      show_gameboard
+    end
+  end
+
+  def show_gameboard
+    board = [[] * width] * height
   end
 
   attr_accessor :cell_arr
