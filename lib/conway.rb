@@ -42,10 +42,11 @@ class Gameboard
   end
 
   def show_gameboard
-    board = [[] * width] * height
+    board = [['x'] * width] * height
+    print board
   end
 
-  attr_accessor :cell_arr
+  attr_accessor :cell_arr, :width, :height
 end
 
 # class for cells
@@ -130,3 +131,4 @@ game = Gameboard.new(5, 5)
 new_cell = Cell.new(2, 3, game)
 #puts new_cell.to_s
 puts game.cell_arr
+game.show_gameboard
