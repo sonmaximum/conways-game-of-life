@@ -1,3 +1,15 @@
+## Video
+
+Video should play until the 9:53 mark.
+
+## Before beginning exercises
+
+Rotating is challenging with a large cohort. Using random team script saves a lot of time and although we'll have some developers pair more than once, such is random.
+
+To prevent this use the random script.
+Setting up the teams for each exercise before the day starts may save even more time.
+https://git.generalassemb.ly/wdi-bos-faculty/team-assignments#create-teams
+
 ## Warning
 
 When it comes to the Git Happens exercise, it should be heavily stressed that developers should not use this `git reset` command after this exercise is over for their own purposes.

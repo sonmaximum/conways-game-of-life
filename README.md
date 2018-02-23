@@ -16,12 +16,13 @@ By the end of this, students should be able to:
 
 This code retreat will consist of several pairing rounds. Try to pair with
 someone new each time. For each round, you and your pair will work on
-implementing Conway's Game of Life in ruby (see below). After each round we will
-hold a quick retrospective to share our experiences with each other.
+implementing Conway's Game of Life in ruby (see below).
 
 <!--
 Instructor note: Code should be deleted between each round. It's fun to watch
 the looks on student faces when they hear this the first time.
+
+(EVIL LAUGH)
 
 For more ideas on challenges, check out
 http://coderetreat.org/facilitating/activity-catalog
@@ -65,7 +66,7 @@ the British mathematician John Horton Conway in 1970.
 
 Visualization of the Game of Life:
 
-![Alt Conway's Game of Life](https://git.generalassemb.ly/storage/user/5688/files/306e495a-418e-11e7-97fc-71b3819e56da)
+![Alt Conway's Game of Life](http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/)
 
 
 <!--
