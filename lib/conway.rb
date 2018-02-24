@@ -11,10 +11,10 @@ class Gameboard
         @cell_arr.push(Cell.new(x, y, self))
       end
     end
-    show_gameboard
+    show_board
   end
 
-  def check_turn
+  def take_turn
     cell_arr.each do |cell|
       cell.neighbors_array
       cell.check_neighbors
@@ -24,7 +24,8 @@ class Gameboard
     born_cells = cell_arr.select { |cell| cell.being_born }
     dying_cells.each { |cell| cell.die }
     born_cells.each { |cell| cell.born }
-    show_gameboard
+    system('clear')
+    show_board
   end
 
   def make_alive(x, y)
@@ -36,11 +37,12 @@ class Gameboard
 
   def start_game
     while true
-      check_turn
+      take_turn
+      sleep(0.2)
     end
   end
 
-  def show_gameboard
+  def set_up_gameboard
     board = []
     0.upto(width-1) do |x|
       board[x] = Array.new(height)
@@ -48,12 +50,21 @@ class Gameboard
     cell_arr.each do |cell|
       x = cell.x
       y = cell.y
-      cell.alive ? board[y][x] = 'X' : board[y][x] = 'O'
+      cell.alive ? board[y][x] = '█' : board[y][x] = '_'
     end
     board
   end
 
-  attr_accessor :cell_arr, :width, :height
+  def show_board
+    board = set_up_gameboard
+    board.each do |row|
+      print row
+      puts ''
+    end
+    puts '-' * width * 5
+  end
+
+  attr_accessor :width, :height, :cell_arr
 end
 
 # class for cells
@@ -132,8 +143,62 @@ class Cell
 
   attr_accessor :x, :y, :alive, :neighbors, :gameboard, :live_neighbors, :dying, :being_born
 end
-#require_relative('lib/conway')
-game = Gameboard.new(3, 3)
-game.make_alive(0,1)
-game.make_alive(1,1)
-game.make_alive(2,1)
+# require_relative('lib/conway')
+# Use 3-period pulsar as demo
+system('clear')
+game = Gameboard.new(40, 40)
+game.make_alive(3, 1)
+game.make_alive(4, 1)
+game.make_alive(5, 1)
+game.make_alive(9, 1)
+game.make_alive(10, 1)
+game.make_alive(11, 1)
+game.make_alive(1, 3)
+game.make_alive(6, 3)
+game.make_alive(8, 3)
+game.make_alive(13, 3)
+game.make_alive(1, 4)
+game.make_alive(6, 4)
+game.make_alive(8, 4)
+game.make_alive(13, 4)
+game.make_alive(1, 5)
+game.make_alive(6, 5)
+game.make_alive(8, 5)
+game.make_alive(13, 5)
+game.make_alive(3, 6)
+game.make_alive(4, 6)
+game.make_alive(5, 6)
+game.make_alive(9, 6)
+game.make_alive(10, 6)
+game.make_alive(11, 6)
+game.make_alive(3, 8)
+game.make_alive(4, 8)
+game.make_alive(5, 8)
+game.make_alive(9, 8)
+game.make_alive(10, 8)
+game.make_alive(11, 8)
+game.make_alive(1, 9)
+game.make_alive(6, 9)
+game.make_alive(8, 9)
+game.make_alive(13, 9)
+game.make_alive(1, 10)
+game.make_alive(6, 10)
+game.make_alive(8, 10)
+game.make_alive(13, 10)
+game.make_alive(1, 11)
+game.make_alive(6, 11)
+game.make_alive(8, 11)
+game.make_alive(13, 11)
+game.make_alive(3, 13)
+game.make_alive(4, 13)
+game.make_alive(5, 13)
+game.make_alive(9, 13)
+game.make_alive(10, 13)
+game.make_alive(11, 13)
+# add one glider too
+game.make_alive(17, 3)
+game.make_alive(18, 3)
+game.make_alive(19, 3)
+game.make_alive(19, 2)
+game.make_alive(18, 1)
+game.start_game
