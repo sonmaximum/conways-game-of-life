@@ -11,8 +11,7 @@ class Gameboard
         @cell_arr.push(Cell.new(x, y, self))
       end
     end
-    self.show_gameboard
-    self
+    show_gameboard
   end
 
   def check_turn
@@ -25,6 +24,7 @@ class Gameboard
     born_cells = cell_arr.select { |cell| cell.being_born }
     dying_cells.each { |cell| cell.die }
     born_cells.each { |cell| cell.born }
+    show_gameboard
   end
 
   def make_alive(x, y)
@@ -35,15 +35,22 @@ class Gameboard
   end
 
   def start_game
-    loop do
+    while true
       check_turn
-      show_gameboard
     end
   end
 
   def show_gameboard
-    board = [['x'] * width] * height
-    print board
+    board = []
+    0.upto(width-1) do |x|
+      board[x] = Array.new(height)
+    end
+    cell_arr.each do |cell|
+      x = cell.x
+      y = cell.y
+      cell.alive ? board[y][x] = 'X' : board[y][x] = 'O'
+    end
+    board
   end
 
   attr_accessor :cell_arr, :width, :height
@@ -93,7 +100,7 @@ class Cell
   def check_neighbors
     self.live_neighbors = 0
     neighbors.each do |cell|
-      self.liveNeighbors += 1 if cell.alive
+      self.live_neighbors += 1 if (cell && cell.alive)
     end
   end
 
@@ -123,12 +130,10 @@ class Cell
     "(#{x}, #{y})"
   end
 
-  attr_accessor :x, :y
+  attr_accessor :x, :y, :alive, :neighbors, :gameboard, :live_neighbors, :dying, :being_born
 end
-
-game = Gameboard.new(5, 5)
-
-new_cell = Cell.new(2, 3, game)
-#puts new_cell.to_s
-puts game.cell_arr
-game.show_gameboard
+#require_relative('lib/conway')
+game = Gameboard.new(3, 3)
+game.make_alive(0,1)
+game.make_alive(1,1)
+game.make_alive(2,1)
