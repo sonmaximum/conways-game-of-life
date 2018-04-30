@@ -2,7 +2,12 @@
 
 ## To Run Demo:
 
-`ruby lib\conway.rb`
+```
+git clone https://github.com/sonmaximum/conways-game-of-life
+cd conways-game-of-life/
+bundle install
+ruby lib/conway.rb
+```
 
 ## Background/Instructions
 
@@ -13,6 +18,8 @@ I was actually familiar with Conway's Game of Life (from way back in [Microsoft 
 The logic is found in file `lib\conway.rb`.  This file can be executed as-is to run a pre-defined demonstration in the terminal consisting of a 40x40 grid with one glider and one three-period pulsar.  The glider will proceed across the board until it reaches the edge, while the pulsar will repeat indefinitely.
 
 Alternatively, the data from the file can be loaded into a Ruby interpreter, and a new gameboard can be instantiated with an x and y board size (`Gameboard.new(x, y)`).  Then the `make_alive` method of this gameboard can be given an X and Y coordinate for each initial living cell.  Finally, the gameboard's `start_game` method is used to run the simulation.  See the demo code at the bottom of [lib\conway.rb](https://github.com/sonmaximum/conways-game-of-life/blob/master/lib/conway.rb) for the example.
+
+![Demo Screenshot](/Conways.png)
 
 ## Conway's Game of Life
 

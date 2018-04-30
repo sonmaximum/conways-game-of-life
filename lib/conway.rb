@@ -144,61 +144,20 @@ class Cell
   attr_accessor :x, :y, :alive, :neighbors, :gameboard, :live_neighbors, :dying, :being_born
 end
 # require_relative('lib/conway')
-# Use 3-period pulsar as demo
 system('clear')
 game = Gameboard.new(40, 40)
-game.make_alive(3, 1)
-game.make_alive(4, 1)
-game.make_alive(5, 1)
-game.make_alive(9, 1)
-game.make_alive(10, 1)
-game.make_alive(11, 1)
-game.make_alive(1, 3)
-game.make_alive(6, 3)
-game.make_alive(8, 3)
-game.make_alive(13, 3)
-game.make_alive(1, 4)
-game.make_alive(6, 4)
-game.make_alive(8, 4)
-game.make_alive(13, 4)
-game.make_alive(1, 5)
-game.make_alive(6, 5)
-game.make_alive(8, 5)
-game.make_alive(13, 5)
-game.make_alive(3, 6)
-game.make_alive(4, 6)
-game.make_alive(5, 6)
-game.make_alive(9, 6)
-game.make_alive(10, 6)
-game.make_alive(11, 6)
-game.make_alive(3, 8)
-game.make_alive(4, 8)
-game.make_alive(5, 8)
-game.make_alive(9, 8)
-game.make_alive(10, 8)
-game.make_alive(11, 8)
-game.make_alive(1, 9)
-game.make_alive(6, 9)
-game.make_alive(8, 9)
-game.make_alive(13, 9)
-game.make_alive(1, 10)
-game.make_alive(6, 10)
-game.make_alive(8, 10)
-game.make_alive(13, 10)
-game.make_alive(1, 11)
-game.make_alive(6, 11)
-game.make_alive(8, 11)
-game.make_alive(13, 11)
-game.make_alive(3, 13)
-game.make_alive(4, 13)
-game.make_alive(5, 13)
-game.make_alive(9, 13)
-game.make_alive(10, 13)
-game.make_alive(11, 13)
-# add one glider too
-game.make_alive(17, 3)
-game.make_alive(18, 3)
-game.make_alive(19, 3)
-game.make_alive(19, 2)
-game.make_alive(18, 1)
+live_cells = [
+  # Use 3-period pulsar as demo
+  [3, 1], [4, 1], [5, 1], [9, 1], [10, 1], [11, 1], [1, 3], [6, 3], [8, 3],
+  [13, 3], [1, 4], [6, 4], [8, 4], [13, 4], [1, 5], [6, 5], [8, 5], [13, 5],
+  [3, 6], [4, 6], [5, 6], [9, 6], [10, 6], [11, 6], [3, 8], [4, 8], [5, 8],
+  [9, 8], [10, 8], [11, 8], [1, 9], [6, 9], [8, 9], [13, 9], [1, 10], [6, 10],
+  [8, 10], [13, 10], [1, 11], [6, 11], [8, 11], [13, 11], [3, 13], [4, 13],
+  [5, 13], [9, 13], [10, 13], [11, 13],
+  # add one glider too
+  [17, 3], [18, 3], [19, 3], [19, 2], [18, 1]
+]
+live_cells.each do |x, y|
+  game.make_alive(x, y)
+end
 game.start_game
