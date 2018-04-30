@@ -9,11 +9,15 @@ bundle install
 ruby lib/conway.rb
 ```
 
-## Background/Instructions
+Note that the default demo is 40x40, so be sure the terminal window is large enough (ideally fullscreen) to see the whole gameboard.
 
-During my time at General Assembly, for one of the training sessions we had a full day of "code retreat" where we practiced using different group coding methods and cooperating to try to solve a coding problem under various constraints.  The problem we were given was to implement Conway's Game of Life.  (See below for a description of Conway's Game of Life, provided by General Assembly.)
+## Background
 
-I was actually familiar with Conway's Game of Life (from way back in [Microsoft Entertainment Pack 3](https://en.wikipedia.org/wiki/Microsoft_Entertainment_Pack#Microsoft_Entertainment_Pack_3)) so after the retreat was over, I wanted to try to complete the problem we had started during that day.  This repository contains my follow-up, a simulation of Conway's Game of Life using Ruby.
+During my time at General Assembly, for one of the training sessions we had a full day of "code retreat" where we practiced using different group coding methods and cooperating to try to solve a coding problem under various constraints.  The problem we were given was to implement Conway's Game of Life.  (See the final README section, below, for a detailed description of Conway's Game of Life, provided by General Assembly.)
+
+I was actually familiar with Conway's Game of Life (from way back in [Microsoft Entertainment Pack 3](https://en.wikipedia.org/wiki/Microsoft_Entertainment_Pack#Microsoft_Entertainment_Pack_3)), so after the retreat was over, I wanted to try to complete the problem we had started during that day.  This repository contains my follow-up, a simulation of Conway's Game of Life using Ruby.
+
+## Instructions
 
 The logic is found in file `lib\conway.rb`.  This file can be executed as-is to run a pre-defined demonstration in the terminal consisting of a 40x40 grid with one glider and one three-period pulsar.  The glider will proceed across the board until it reaches the edge, while the pulsar will repeat indefinitely.
 
