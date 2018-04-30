@@ -1,9 +1,10 @@
 # Max's Conway's Game of Life
 
-This repository contains my attempt to generate a simulation of Conway's Game of
-Life using Ruby.
+This repository contains my attempt to generate a simulation of Conway's Game of Life using Ruby.  (See below for a description of Conway's Game of Life, provided by General Assembly.)
 
-Below is a description of Conway's Game of Life, provided by General Assembly.
+The logic is found in file `lib\conway.rb`.  This file can be executed as-is to run a pre-defined demonstration in the terminal consisting of a 40x40 grid with one glider and one three-period pulsar.  The glider will proceed across the board until it reachees the edge, while the pulsar will repeat indefinitely.
+
+Alternatively, the data from the file can be loaded into a Ruby interpreter, and a new gameboard can be instantiated with an x and y board size (`Gameboard.new(x, y)`).  Then this `make_alive` method of this gameboard can be given an X and Y coordinate for each initial living cell.  Finally, the gameboard's `start_game` method is used to run the simulation.  See the demo code at the bottom of `lib\conway.rb` for the example.
 
 ## Conway's Game of Life
 
@@ -12,7 +13,7 @@ the British mathematician John Horton Conway in 1970.
 
 Visualization of the Game of Life:
 
-![Alt Conway's Game of Life](http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/)
+[Interactive Conway's Game of Life](http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/)
 
 
 <!--
