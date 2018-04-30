@@ -1,6 +1,6 @@
 # Max's Conway's Game of Life
 
-During my time at General Assembly, for one of the training sessions we had a full day of "code retreat" where we practiced different group coding methods and cooperating to try to solve a coding problem under various constraints.  The problem was to implement Conway's Game of Life.  (See below for a description of Conway's Game of Life, provided by General Assembly.)
+During my time at General Assembly, for one of the training sessions we had a full day of "code retreat" where we practiced using different group coding methods and cooperating to try to solve a coding problem under various constraints.  The problem we were given was to implement Conway's Game of Life.  (See below for a description of Conway's Game of Life, provided by General Assembly.)
 
 I was actually familiar with Conway's Game of Life (from way back in [Microsoft Entertainment Pack 3](https://en.wikipedia.org/wiki/Microsoft_Entertainment_Pack#Microsoft_Entertainment_Pack_3)) so after the retreat was over, I wanted to try to complete the problem we had started during that day.  This repository contains my follow-up, a simulation of Conway's Game of Life using Ruby.
 
